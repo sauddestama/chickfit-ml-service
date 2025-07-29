@@ -20,7 +20,7 @@ class ChickFitCNNModel:
         self.model_info = {
             'name': 'ChickFit CNN Model',
             'version': 'v1.0',
-            'accuracy': 0.0,
+            'accuracy': 0.9535,
             'classes': settings.classes,
             'input_shape': [settings.image_size, settings.image_size, 3],
             'trained_at': None,
