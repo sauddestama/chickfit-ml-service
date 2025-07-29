@@ -16,7 +16,7 @@ class Settings(BaseSettings):
     classes: List[str] = ["Coccidiosis", "ND", "Sehat"]
     
     # Server Configuration
-    port: int = 8000
+    port: int = int(os.getenv("PORT", 8080))
     environment: str = "development"
     log_level: str = "INFO"
     
